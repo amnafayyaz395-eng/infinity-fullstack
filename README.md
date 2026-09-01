@@ -76,3 +76,4 @@ curl -X POST http://localhost:5000/api/auth/signup \
 - Rate limiting is applied to auth and chat endpoints.
 - `helmet`'s CSP is disabled for local dev (Tailwind/Google Fonts via CDN) — tighten this for production.
 - This is a working local/dev-ready fullstack app; production hardening (HTTPS, secrets management, email delivery for password reset, image uploads) still needs to be added before going live.
+# infinity-fullstack
